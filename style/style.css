@@ -1,0 +1,293 @@
+/* background */
+header, nav {
+	background-color: #994d00;
+}
+
+main {
+	background-color: #d9d9d9;
+}
+
+.prefooter, footer {
+	background-color: #000000;
+}
+
+/* box */
+.box-top {
+	box-sizing: border-box;
+	padding: 0px;
+	margin: 0px;
+	width: 350px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #ff9933;
+	box-shadow: 7px 7px #666666;
+}
+
+.box {
+	padding: 0px;
+	margin: 0px;
+	width: 350px;
+	height: 70px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #ff9933;
+	box-shadow: 7px 7px #666666;
+}
+
+.box-bottom {
+	padding: 0px;
+	margin: 0px;
+	width: 350px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #ff9933;
+	box-shadow: 7px 7px #666666;
+}
+
+/* breadcrumbs */
+ul.breadcrumb {
+	padding: 10px 16px;
+	list-style: none;
+	background-color: #eee;
+}
+
+ul.breadcrumb li {
+	display: inline;
+	font-size: 18px;
+}
+
+ul.breadcrumb li+li:before {
+	padding: 8px;
+	color: black;
+	content: "/\00a0";
+}
+
+ul.breadcrumb li a {
+	color: #0275d8;
+	text-decoration: none;
+}
+
+ul.breadcrumb li a:hover {
+	color: #01447e;
+	text-decoration: none;
+}
+
+/* filter */
+.filterDiv {
+	color: black;
+	line-height: 60px;
+	text-align: center;
+	margin: 0px;
+	display: none;
+}
+
+.show {
+	display: block;
+}
+
+.btn {
+	border: none;
+	outline: none;
+	padding: 12px 16px;
+	background-color: #f1f1f1;
+	cursor: pointer;
+	display: block;
+}
+
+.btn:hover {
+	background-color: #ddd;
+}
+
+.btn.active {
+	background-color: #666;
+	color: white;
+}
+
+/* font */
+h1, .catalogo, .sottotitolo{
+	font-family: papyrus, fantasy;
+}
+
+/* image */
+.centurion {
+	height: 270px;
+	margin-top: 12px;
+}
+
+.battle-of-thermopylae {
+	height: 270px;
+	margin-top: 12px;
+}
+
+.battle-of-pharsalus{
+	width: 350px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 7px 7px #666666;
+}
+
+.pharsalus-map {
+	width: 550px;
+	padding-bottom: 20px;
+}
+
+.battle-of-chaeronea {
+	width: 350px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 7px 7px #666666;
+}
+
+.battle-of-gergovia {
+	width: 350px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 7px 7px #666666;
+}
+
+.busto-alessandro-magno {
+	width: 350px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 7px 7px #666666; 
+}
+
+.busto-cimone {
+	width: 350px;
+	height: 474px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 7px 7px #666666; 
+}
+
+.busto-cesare {
+	width: 350px;
+	height: 474px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 7px 7px #666666; 
+}
+
+/* line height */
+.line-height {
+	line-height: 0;
+}
+
+.head-line-height {
+	line-height: 2.2; 
+}
+
+/* link */
+.link {
+	color: black;
+	text-decoration: none; 
+	font-size: 25px;
+}
+
+a.link:hover {
+	color: #0000ff;
+	text-decoration: none;
+}
+
+.catalogo {
+	color: black;
+	text-decoration: none; 
+	font-size: 45px;
+}
+
+/* map */
+.map {
+	width: 1190px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.map-element {
+	background-color: red;
+	display: block;
+}
+
+/* padding */
+.padding-top-2 {
+	padding-top: 15px;
+}
+
+.padding-top {
+	padding-top: 35px;
+}
+
+.padding-map {
+	padding-bottom: 10px;
+	padding-top: 3px;
+}
+
+.padding-box {
+	padding: 15px;
+}
+
+h1 {
+	padding-left: 17px;
+}
+
+.main {
+	padding-top: 10px;
+	padding-bottom: 45px;
+}
+
+.padding {
+	padding-bottom: 30px;
+	padding-top: 64px;
+}
+
+/* section height */
+nav {
+	padding-bottom: 30px;
+}
+
+.prefooter {
+	padding-top: 17px;
+}
+
+/* sottotitolo */
+.sottotitolo {
+	font-size: 23px;
+	padding-top: 5px;
+}
+
+/* text align */
+.align-right {
+	text-align: right;
+	margin-bottom: 0px
+}
+
+.align-left {
+	text-align: left;
+}
+
+.align-center {
+	text-align: center;
+}
+
+footer {
+	text-align: center;
+}
+
+/* text color */
+.prefooter, footer {
+	color: white;
+}
+
+header {
+	color: black;
+}
+
